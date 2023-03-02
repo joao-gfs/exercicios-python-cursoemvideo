@@ -1,2 +1,2 @@
 v = float(input('Insira o valor em metros: '))
-print('Esse valor corresponde a {} centímetros e {} milímetros'.format(v*100, v*1000))
+print('Esse valor corresponde a {}cm e {}mm'.format(v*100, v*1000))

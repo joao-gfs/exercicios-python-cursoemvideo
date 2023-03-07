@@ -1,7 +1,7 @@
-cidade = input('Insira o nome da cidade: ')
-if cidade[0:5] == 'Santo':
+cidade = input('Insira o nome da cidade: ').strip()
+if cidade[0:6].lower() == 'santo ':
     print('Esta cidade tem Santo no começo do nome!')
-elif 'Santo' in cidade:
+elif 'santo ' in cidade.lower():
     print('Esta cidade tem Santo no meio do nome!')
 else:
     print('Esta cidade não tem Santo no nome!')

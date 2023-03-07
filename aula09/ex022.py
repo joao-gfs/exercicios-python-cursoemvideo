@@ -1,0 +1,5 @@
+nome = input('Digite seu nome completo: ')
+print('Seu nome em maiúsculas é: {}'.format(nome.upper()))
+print('Seu nome em minúsculas é: {}'.format(nome.lower()))
+print('O seu nome tem {} letras.'.format(len(nome.replace(' ', ''))))
+print('O seu primeiro nome tem {} letras.'.format(len(nome.split()[0])))

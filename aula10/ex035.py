@@ -1,7 +1,7 @@
-l1 = float(input('Digite o comprimento da primeira reta: '))
-l2 = float(input('Digite o comprimento da segunda reta: '))
-l3 = float(input('Digite o comprimento da terceira reta: '))
-if l1 + l2 > l3 and l1 + l3 > l2 and l2 + l3 > l1:
-    print('Essas retas podem formar um triângulo.')
+s1 = float(input('Digite o comprimento do primeiro segmento: '))
+s2 = float(input('Digite o comprimento do segundo segmento: '))
+s3 = float(input('Digite o comprimento do terceiro segmento: '))
+if s1 + s2 > s3 and s1 + s3 > s2 and s2 + s3 > s1:
+    print('Esses segmentos podem formar um triângulo.')
 else:
-    print('Essas retas não podem formar um triângulo.')
+    print('Esses segmentos não podem formar um triângulo.')

@@ -1,3 +1,4 @@
+#Tentativa original, funciona porém não é o código mais limpo.
 a = int(input('Digite um número: '))
 b = int(input('Digite outro número: '))
 c = int(input('Digite mais um número: '))

@@ -40,7 +40,6 @@ else:
         emoc = ':v:'
 
     print(emojize('Jogador: {}'.format(emop), language='alias'))
-    sleep(0.5)
     print(emojize('Computador: {}'.format(emoc), language='alias'))
     sleep(0.5)
 

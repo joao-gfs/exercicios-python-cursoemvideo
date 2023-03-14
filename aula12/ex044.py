@@ -1,3 +1,4 @@
+print(f'{" LOJÃO DO JOÃO ":=^40}')
 valor = float(input('Valor do produto: R$'))
 print('''Escolha a forma de pagamento:
 1 - À vista no dinheiro/pix: 10% de desconto.
@@ -18,7 +19,7 @@ elif forma == 4:
     print('Você escolheu o pagamento parcelado em 3x ou mais. Favor digite em quantas vezes deseja parcelar: ')
     parcela = int(input(''))
     if parcela < 3:
-        print('Neste caso, escolha outra forma de pagamento.')
+        print('Neste caso, escolha outra forma de pagamento para ter um preço melhor.')
     else:
         print('Parcelando em {}x, cada parcela custará R${:.2f}, totalizando R${:.2f}.'.format(parcela, valor * 1.2 / parcela, valor * 1.2))
 else:
